@@ -1,17 +1,30 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+<!--    <img alt="Vue logo" src="./assets/logo.png">-->
+<!--    <HelloWorld msg="Welcome to Your Vue.js App"/>-->
+    <p>App.vue - above hr</p>
+    <hr />
+
+    <navigation202/>
+
+    <p><span style="color: #ff0000;">start - router-view</span></p>
+    <router-view/>
+    <p><span style="color: #ff0000;">finish - router-view</span></p>
+
+    <hr />
+    <p>App.vue - under hr</p>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+import Navigation202 from './components/Navigation202'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+      Navigation202
+      // HelloWorld
   }
 }
 </script>

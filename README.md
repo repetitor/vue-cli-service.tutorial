@@ -1,4 +1,6 @@
 # vue-cli-service.tutorial
+- npm install vue-router
+- npm install axios
 
 ## Project setup
 ```
